@@ -217,6 +217,11 @@ else
 }
 IsColiding = false;
 IsColidingBrick = false;
+
+if(y &gt; room_height)
+    y = 0;
+if(y &lt; 0)
+    y = room_height;
 </string>
           </argument>
         </arguments>

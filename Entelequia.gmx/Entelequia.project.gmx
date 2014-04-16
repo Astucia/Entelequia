@@ -21,6 +21,26 @@
       <sound>sound\GJ04</sound>
       <sound>sound\GJ05</sound>
     </sounds>
+    <sounds name="Instrucciones">
+      <sound>sound\snd1bienvenido</sound>
+      <sound>sound\snd2jugar</sound>
+      <sound>sound\snd3salir</sound>
+      <sound>sound\snd4boton_creditos</sound>
+      <sound>sound\snd5instrucciones</sound>
+      <sound>sound\snd6comenzar</sound>
+      <sound>sound\snd7iniciar_jugador</sound>
+      <sound>sound\snd8jugador1</sound>
+      <sound>sound\snd9jugador2</sound>
+      <sound>sound\snd10jugador3</sound>
+      <sound>sound\snd11jugador4</sound>
+      <sound>sound\snd12iniciandojuego</sound>
+      <sound>sound\snd13ganador1</sound>
+      <sound>sound\snd14ganador2</sound>
+      <sound>sound\snd15ganador3</sound>
+      <sound>sound\snd16ganador4</sound>
+      <sound>sound\snd17ganadorfinal</sound>
+      <sound>sound\snd18creditos</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPersonaje</sprite>
@@ -62,6 +82,9 @@
       <object>objects\OSelectPlayers</object>
       <object>objects\OGameRoom</object>
       <object>objects\OGanadorRoom</object>
+      <object>objects\OSplashScreenRoom</object>
+      <object>objects\OInstruccionesRoom</object>
+      <object>objects\OCreditosRoom</object>
     </objects>
     <objects name="Walls">
       <object>objects\OAgua</object>
